@@ -1,6 +1,6 @@
 # Hadoop-Essentials
 
-
+## HDFS Commands
 ls - listing
 mkdir - make directory
 cp -copy
