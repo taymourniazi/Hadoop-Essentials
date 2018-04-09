@@ -78,8 +78,8 @@ avg_vol_ordered = ORDER avg_volume BY avgvolume DESC;
 
 ### STORE TOP 10 RECORDS ###
 
-top10 = LIMIT avg_vol_ordered 10;
-STORE top10 INTO 'output/pig/avg-volume' USING PigStorage(',');
+top10 = LIMIT avg_vol_ordered 10;  
+STORE top10 INTO 'output/pig/avg-volume' USING PigStorage(',');  
 
 ### EXECUTE PIG INSTRUCTIONS AS SCRIPT ###
 
