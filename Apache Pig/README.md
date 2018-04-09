@@ -2,8 +2,8 @@
 
 ### LOADING A DATASET ###
 
-grunt> stocks = LOAD '/user/hirw/input/stocks' USING PigStorage(',') as (exchange:chararray, symbol:chararray, date:datetime, open:float, high:float, low:float, close:float,
-volume:int, adj_close:float);
+grunt> stocks = LOAD '/user/hirw/input/stocks' USING PigStorage(',') as (exchange:chararray, symbol:chararray, date:datetime, open:float, high:float, low:float, close:float,  
+volume:int, adj_close:float);  
 
 ### STRUCTURE ###
 
