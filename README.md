@@ -26,3 +26,4 @@ sudo -u hdfs hdfs fsck /filepath -files -block -block -locations
   
   
     
+  
