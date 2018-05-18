@@ -25,3 +25,4 @@ hadoop fs -chmod 777 filepath
 sudo -u hdfs hdfs fsck /filepath -files -block -block -locations    
   
   
+    
