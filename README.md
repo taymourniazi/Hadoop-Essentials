@@ -23,3 +23,4 @@ hadoop fs -Ddfs.replication=2 -cp filname
 hadoop fs -chmod 777 filepath
 ### file system check
 sudo -u hdfs hdfs fsck /filepath -files -block -block -locations    
+  
